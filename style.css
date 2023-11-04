@@ -1,0 +1,30 @@
+:root{
+    --bg-color: rgb(219, 123, 123);
+    --primary-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+div.container {
+    background-color: var(--bg-color);
+}
+
+div.container h1{
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+div.container p{
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+div.container form{
+    border: 5px solid rgb(0, 0, 0);
+    /* Top, right, bottom e left */
+    margin: 100px 50px 75px 100px;
+    padding: 100px 50px 75px 100px;
+}
